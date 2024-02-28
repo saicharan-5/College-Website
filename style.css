@@ -36,6 +36,12 @@ justify-content: space-between;
 .navbar-left{
     padding-left: 75px;
 }
+a{
+    color: aquamarine;
+}
+.a-element:hover{
+    color: rgb(93, 103, 238);
+}
 .navbar-right{
     display: flex;
     flex-direction: row;
@@ -109,13 +115,6 @@ justify-content: space-between;
 .a-element{
     padding: 0.5cm;
     text-decoration: none;
-}
-.a-element:hover{
-    color: rgb(93, 103, 238);
-}
-
-a:visited{
-    color: white;
 }
 .mark{
     padding-top: 5px;
